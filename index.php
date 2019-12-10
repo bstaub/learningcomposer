@@ -1,7 +1,24 @@
 <?php
 require_once __DIR__ ."/vendor/autoload.php";
-use Carbon\Carbon;
 
+use App\Book;
+new \App\TextBook();
+echo "<br />";
+new Book();
+echo "<br />";
+
+new \App\Models\Model();
+
+echo "<br />";
+new Lib;
+echo "<br />";
+new Move;
+echo "<br />";
+connect();
+
+// Datum Carbon und Email Example
+/*
+use Carbon\Carbon;
 $credentials = require __DIR__ ."/config/mail.php";
 $today = Carbon::now()->toDayDateTimeString();
 
@@ -18,3 +35,4 @@ $message = (new Swift_Message('Testing SwiftMailer'))
         $today, 'text/html');
 
 echo $mailer->send($message) ? $result = "Message sent successfully" : $result = "Sending Failed";
+*/

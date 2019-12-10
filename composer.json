@@ -12,5 +12,12 @@
     "require": {
         "nesbot/carbon": "^2.27",
 	"swiftmailer/swiftmailer": "^6.2.3"
+    },
+    "autoload": {
+        "classmap":["classes/", "library/"],
+        "files":["config/database.php"],
+        "psr-4": {
+            "":"src/"
+        }
     }
 }
