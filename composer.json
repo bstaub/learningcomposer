@@ -1,0 +1,16 @@
+{
+    "name": "bstaub/learningcomposer",
+    "description": "Learning Composer Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Staub",
+            "email": "bruno.staub@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.27",
+	"swiftmailer/swiftmailer": "^6.2.3"
+    }
+}
