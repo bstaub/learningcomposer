@@ -21,3 +21,6 @@ Falls ein beliebiger Namespace im src Directory verwendet werden soll kann man A
             "App\\":"src/"
         }
 
+#### Load Dev Dependendies for Example Error Handler with --dev
+
+    composer require filp/whoops --dev

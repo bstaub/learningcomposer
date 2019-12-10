@@ -1,6 +1,12 @@
 <?php
 require_once __DIR__ ."/vendor/autoload.php";
 
+// Error Handler Whoops in Action
+$errorHandler = new Whoops\Run;
+$errorHandler->pushHandler(new Whoops\Handler\PrettyPageHandler);
+$errorHandler->register();
+
+
 use App\Book;
 new \App\TextBook();
 echo "<br />";

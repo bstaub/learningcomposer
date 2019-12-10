@@ -19,5 +19,8 @@
         "psr-4": {
             "":"src/"
         }
+    },
+    "require-dev": {
+        "filp/whoops": "^2.5"
     }
 }
