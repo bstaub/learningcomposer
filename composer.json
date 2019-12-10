@@ -22,5 +22,8 @@
     },
     "require-dev": {
         "filp/whoops": "^2.5"
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
